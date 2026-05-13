@@ -141,10 +141,10 @@ def call_claude(prompt: str) -> anthropic.types.Message:
                 "type": "web_search_20250305",
                 "name": "web_search",
                 "max_uses": MAX_SEARCH_USES,
-                "allowed_domains": ALLOWED_DOMAINS,
             }
         ],
         messages=[{"role": "user", "content": prompt}],
+    )
     )
 
 
