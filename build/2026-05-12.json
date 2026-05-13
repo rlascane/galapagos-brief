@@ -1,0 +1,108 @@
+{
+  "date_iso": "2026-05-12",
+  "date_pt": "terca-feira, 12 de maio de 2026",
+  "generated_at_br": "2026-05-12T22:35:35.093451-03:00",
+  "model": "claude-opus-4-7",
+  "body_md": "Vou apurar os dados de mercado das últimas horas para montar o briefing.Tenho dados bons. Preciso de mais detalhes sobre Brasil hoje (12/05), Copom/BCB, câmbio, juros, e commodities/minério.Tenho bons dados. Preciso confirmar IPCA de abril divulgado hoje 12/05, agenda do dia 13/05 (BB resultado), e algo sobre política doméstica/Congresso/Fazenda recente.Tenho material suficiente. Vou montar o briefing.\n\n## Top 3 do Dia\n\n- CPI americano de abril em 3,8%, slightly topping estimates, marking the metric's largest increase since May 2023 derruba tech em NY e abre porta para precificação de alta de juros pelo Fed em dezembro - reprecificação relevante para EM.\n- IPCA de abril ficou em 0,67%, 0,21 ponto percentual abaixo da taxa de 0,88% registrada em março, mas em 12 meses acumula alta de 4,39%, frente a 4,14% de março, e o teto da meta é 4,5% - composição ruim (serviços e alimentos) limita Copom.\n- Brent rompe US$100 com tensões diplomáticas escalando após Washington rejeitar a contraproposta de Teerã - vetor altista para Petrobras e exportadoras, baixista para curva DI longa.\n\n## Brasil\n\n**Renda Variável** — Ibovespa fechou a sessão prévia (segunda, 11/05) em queda de 1,19%, aos 181.908 pontos, registrando o menor fechamento desde 27 de março, pressionado principalmente por ações sensíveis aos juros, diante do temor de que a alta do petróleo possa dificultar cortes na taxa Selic. Hoje (12/05), o índice fechou em queda de 0,86%, aos 180.342,33 pontos, com Petrobras recuando 1,62% após o balanço do primeiro trimestre ficar abaixo das expectativas. Fluxo estrangeiro segue negativo: a bolsa brasileira acumulou sete pregões consecutivos de saída de capital, com retiradas superiores a R$ 8 bilhões.\n\n**Renda Fixa** — Curva DI em abertura nos últimos pregões; deterioração das expectativas inflacionárias do Focus e avanço dos juros futuros contribuíram para o resultado, com aumento da aversão global a risco após escalada das tensões Irã-EUA. Focus de ontem: considerando só as 82 estimativas atualizadas nos últimos cinco dias úteis, a mediana para a Selic no fim de 2026 aumentou de 13,00% para 13,25%; mediana para 2027 subiu de 11,00% para 11,25%. Selic em 14,5% ao ano após corte unânime de 0,25 p.p. no Copom de 29/04. Cotações precisas de NTN-B 2035/2045 não disponíveis no fechamento.\n\n**Câmbio** — USDBRL na sessão de hoje oscilou entre 4,8841 e 4,9053, com abertura em 4,8957. Cenário continua de real relativamente resiliente apoiado em diferencial de juros com a Selic em 14,50% e a taxa do Fed entre 3,50% e 3,75%, mas com pressão crescente do DXY após CPI americano.\n\n**Macro & Política** — IPCA de abril veio em linha (consenso 0,68%), mas leitura qualitativa é pior. A XP cita que a inflação acumulada no bimestre março-abril veio cerca de 80 pontos-base acima das trajetórias estimadas pelo Banco Central no Relatório de Inflação de março; corretora projeta IPCA em 5,3% para 2026 e cortes moderados de 25 bps conduzindo Selic a 13,75% até o fim do ano. Itaú projeta inflação de 2026 em 5,2%, com balanço de riscos assimétrico para cima; ASA sinaliza que estimativas para IPCA de 2026 e 2027 passarão por revisões altistas; SulAmérica avalia que rigidez do setor de serviços praticamente anula chances de Copom acelerar cortes. Fazenda sob Durigan opera com margem fiscal estreita: bloqueio de R$ 1,6 bilhão no Orçamento de 2026 considerado modesto, com bloqueio necessário para acomodar despesas obrigatórias dentro do limite de 2,5% acima da inflação e equipe econômica projetando superávit primário de apenas R$ 3,5 bilhões.\n\n## Global\n\n**EUA** — Fechamento de hoje (12/05): S&P 500 -0,16%, finalizando o dia logo acima de 7.400; tech (-1,5%) e discretionary (-0,93%) lideraram as quedas; Nasdaq terminou em -0,71% a 26.088,20, após queda intraday de mais de 2%. 10Y subiu 4,9 bps para 4,461%, o maior patamar desde julho. CME FedWatch precificava 98% de probabilidade de manutenção em junho e na maior parte de 2026, mas para dezembro há quase 30% de chance de alta de juros - inflexão hawkish relevante. S&P 500 e Nasdaq fecharam segunda em máximas históricas (7.412,84 no S&P), realizando hoje.\n\n**Europa & Ásia** — Dados específicos de DAX/FTSE/Nikkei/Hang Seng/CSI 300 do fechamento de hoje não disponíveis em fontes verificadas; tom global foi defensivo após CPI americano.\n\n**Commodities** — Brent subindo perto de US$ 107/barril após discurso de Trump sobre Irã. Petróleo (WTI) em US$ 101,53 (+US$ 3,46). Ouro a US$ 4.708 (-US$ 10,15). Minério de ferro: subiu para US$ 111,42/t em 11 de maio, alta de 0,44% em relação ao dia anterior; no mês, alta de 4,08%.\n\n## Agenda do Dia (13/05, quarta)\n\n- **Brasil**: Banco do Brasil (BBAS3) divulga 1T26 após o fechamento. Mercado espera lucro de R$ 4,1 bilhões, queda de 46% na comparação anual, pressionado pela deterioração do portfólio do agronegócio e pelo avanço da inadimplência; consenso Bloomberg em R$ 4,1 bi. Também 13/05: Equatorial (EQTL3), SLC Agrícola (SLCE3), Casas Bahia (BHIA3), Americanas (AMER3), Eneva (ENEV3), CSN (CSNA3), Comgás (CGAS5).\n- **Brasil**: leilão tradicional do Tesouro Nacional (LTN/LFT) - confirmar horário no edital.\n- **EUA**: PPI de abril e fala de membros do FOMC durante o dia (agenda específica de horários não verificada).\n\n## O Que Monitorar\n\n1. **Reprecificação do Fed pós-CPI**: o salto de 30% de probabilidade de *hike* em dezembro vai testar narrativa de soft landing. Se o 10Y americano romper 4,50% de forma sustentada, EM levam pancada via canal cambial e de fluxo - reduzir duration em book global e monitorar comportamento dos *cíclicos brasileiros* (Vale, Petrobras seguram, mas bancos e varejo sofrem mais).\n\n2. **Copom calibração vs. fiscal**: combinação de IPCA 12m a 4,39% colado no teto, serviços rígidos e postura cautelosa do Goldman Sachs que aponta serviços rodando próximos a 6,0% ao ano, expectativas em deterioração, hiato positivo e provável avanço de estímulos fiscais e de crédito antes das eleições do quarto trimestre de 2026 sugere que o ciclo de cortes de 25 bps pode ser interrompido. Curva DI longa segue sendo o ativo de maior beta para qualquer ruído fiscal-eleitoral - posição vendida em juros reais longos (NTN-B 2045) tem risco/retorno deteriorado.\n\n3. **Resultado do BB e leitura do crédito rural**: BTG projeta lucro entre R$ 3 bi e R$ 3,5 bi no 1T26, 15% a 30% abaixo do consenso; margem financeira deve recuar ~5% sequencialmente e provisões seguem elevadas. Resultado funciona como termômetro para todo o sistema bancário - se inadimplência rural superar 8%, contaminação para bancos privados e para a tese de *equity* doméstico vira risco material para a semana.",
+  "citations": [
+    {
+      "url": "https://finance.yahoo.com/economy/live/stock-market-today-dow-rises-sp-500-and-nasdaq-retreat-on-hot-inflation-print-tech-sell-off-224350548.html",
+      "title": "Stock market today: Dow rises, S&P 500 and Nasdaq retreat on hot inflation print, tech sell-off",
+      "cited_text": "Annual headline consumer inflation came in at 3.8%, slightly topping estimates to mark the metric’s largest increase since May 2023. "
+    },
+    {
+      "url": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/noticias/2026/05/inflacao-recua-em-abril-segundo-ibge",
+      "title": "Inflação recua em abril, segundo IBGE — Secretaria de Comunicação Social",
+      "cited_text": "Índice Nacional de Preços ao Consumidor Amplo (IPCA) foi de 0,67%, 0,21 ponto percentual (p.p.) abaixo da taxa de 0,88% registrada em março · Comparti..."
+    },
+    {
+      "url": "https://www.infomoney.com.br/economia/ipca-abril-2026-inflacao-acumulada-teto-meta/",
+      "title": "Gasolina alivia IPCA, mas inflação acumulada pressiona teto com alimentos e serviços",
+      "cited_text": "Em 12 meses, o IPCA acumula alta de 4,39%, frente a 4,14% de março. O teto da meta é 4,5%. "
+    },
+    {
+      "url": "https://sundayguardianlive.com/business/us-stock-market-today-12-may-2026-dow-dips-nasdaq-sp-500-edge-higher-as-tech-rally-oil-surges-103-on-us-iran-deal-gold-silver-hit-bitcoin-retreats-81k-what-investors-should-watch-191547/",
+      "title": "US Stock Market Today [12 May, 2026]: Dow Dips, Nasdaq & S&P 500 Edge Higher as Tech Rally, Oil Surges $103 on US-Iran Deal; Gold & Silver Hit, Bitcoin Retreats $81k | What Investors Should Watch",
+      "cited_text": "Diplomatic tensions escalated after Washington rejected Tehran’s counteroffer related to ending the conflict. Iranian officials defended their demands..."
+    },
+    {
+      "url": "https://www.tubao.com.br/2026/05/bolsa-cai-119-e-dolar-fecha-estavel-com.html",
+      "title": "Tubão - Notícias, Economia, Política, Acontecimentos, Curiosidades, Saúde - Bolsa cai 1,19%, e dólar fecha estável com tensão no Oriente Médio",
+      "cited_text": "O índice Ibovespa, da B3, caiu 1,19%, aos 181.908 pontos, registrando o menor fechamento desde 27 de março. O índice foi pressionado principalmente po..."
+    },
+    {
+      "url": "https://www.portaltela.com/noticias/economia/2026/05/12/dolar-fecha-em-leve-alta-petrobras-pressiona-bolsa/",
+      "title": "Dólar fecha em leve alta; Petrobras pressiona bolsa - Portal Tela",
+      "cited_text": "Ibovespa caiu 0,86%, aos 180.342,33 pontos, com desempenho misto nas bolsas internacionais. Petrobras teve queda de 1,62% após o balanço do primeiro t..."
+    },
+    {
+      "url": "https://www.bloomberglinea.com.br/mercados/ibov:ind/",
+      "title": "Cotacao Ibovespa hoje, indice Bovespa 12/05/2026 | Bloomberg Línea Brasil",
+      "cited_text": "em que investidores estrangeiros reduzem a exposição a ativos concentrados nos EUA e buscam diversificação em mercados emergentes, mas a bolsa brasile..."
+    },
+    {
+      "url": "https://www.atualidadepolitica.com.br/2026/05/ibovespa-fecha-ultimo-pregao-em-queda.html",
+      "title": "Ibovespa fecha último pregão em queda, aos 181.908 pontos | Atualidade Política",
+      "cited_text": "Além disso, analistas do mercado financeiro consideram que a deterioração das expectativas inflacionárias do Focus e o avanço dos juros futuros contri..."
+    },
+    {
+      "url": "https://www.dgabc.com.br/Noticia/4318574/previsao-para-a-selic-no-fim-de-2026-segue-em-13-00-na-pesquisa-focus-do-bc",
+      "title": "Previsão para a Selic no fim de 2026 segue em 13,00% na pesquisa Focus do BC - 11/05/2026 | Diário do Grande ABC",
+      "cited_text": "Considerando só as 82 estimativas atualizadas nos últimos cinco dias úteis, mais sensíveis a novidades, a mediana para a Selic no fim de 2026 aumentou..."
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-04/banco-central-reduz-juros-basicos-para-145-ao-ano",
+      "title": "Banco Central reduz juros básicos para 14,5% ao ano | Agência Brasil",
+      "cited_text": "Por unanimidade, o Comitê de Política Monetária (Copom) reduziu a Taxa Selic, juros básicos da economia, em 0,25 ponto percentual, para 14,5% ao ano. "
+    },
+    {
+      "url": "https://br.investing.com/currencies/usd-brl-historical-data",
+      "title": "Preços Históricos USD/BRL - Investing.com",
+      "cited_text": "A variação diária de USD/BRL hoje está entre 4,8841 e 4,9053. O preço de abertura de USD/BRL hoje foi de 4,8957. "
+    },
+    {
+      "url": "https://www.ebc.com/pt/forex/previsao-do-dolar-para-maio-de-2026-o-dolar-vai-subir-ou-cair",
+      "title": "Previsão do dólar para maio de 2026: o dólar vai subir ou cair? | EBC Financial Group",
+      "cited_text": "Com a Selic em 14,75% e a taxa do Fed entre 3,50% e 3,75%, o spread real para investidores estrangeiros é dos mais atrativos do mundo, atraindo capita..."
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-04/durigan-assume-fazenda-sob-pressao-fiscal-e-herda-desafios-de-haddad",
+      "title": "Durigan assume Fazenda sob pressão fiscal e herda desafios de Haddad | Agência Brasil",
+      "cited_text": "Logo nos primeiros dias à frente da pasta, Durigan anunciou um bloqueio de R$ 1,6 bilhão no Orçamento de 2026, valor considerado modesto por analistas..."
+    },
+    {
+      "url": "https://www.thestreet.com/latest-news/stock-market-today-may-12-2026-updates",
+      "title": "Stock Market Today (May 12, 2026): Nasdaq, Russell 2000 recover some losses after inflation, oil prices rise - TheStreet",
+      "cited_text": "The S&P 500 (-0.16%) mustered a comeback, but couldn’t get it done, finishing out the day just above 7,400. The health care and staples sectors in par..."
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/05/12/stock-market-live-may-12-2026-sp-500-spy-sinks-on-higher-inflation/",
+      "title": "Stock Market Live May 12, 2026: S&P 500 (SPY) Sinks on Higher Inflation - 24/7 Wall St.",
+      "cited_text": "Oil is up by $3.46 at $101.53. "
+    },
+    {
+      "url": "https://pt.tradingeconomics.com/commodity/iron-ore",
+      "title": "Minério de Ferro - Preço - Gráfico - Série Histórica - Notícias",
+      "cited_text": "O minério de ferro subiu para 111,42 USD/T em 11 de maio de 2026, alta de 0,44% em relação ao dia anterior. "
+    },
+    {
+      "url": "https://www.spacemoney.com.br/investimentos/acoes/banco-do-brasil-bbas3-resultado-primeiro-trimestre-2026-queda-lucro/",
+      "title": "Banco do Brasil divulga resultado com queda de 46% - SpaceMoney",
+      "cited_text": "O mercado espera um lucro de R$ 4,1 bilhões, queda de 46% na comparação anual, pressionado pela deterioração do portfólio do agronegócio e pelo avanço..."
+    },
+    {
+      "url": "https://www.ebc.com/pt/forex/petrobras-banco-do-brasil-resultado-1t26-petr4-bbas3",
+      "title": "Petrobras divulga hoje e Banco do Brasil na quarta: uma vai surpreender para cima e a outra pode decepcionar - você sabe qual é qual? | EBC Financial Group",
+      "cited_text": "(13/05 - quarta) | Banco do Brasil (BBAS3), Equatorial (EQTL3), SLC Agrícola (SLCE3), Casas Bahia (BHIA3), Americanas (AMER3), Eneva (ENEV3), CSN (CSN..."
+    },
+    {
+      "url": "https://www.ebc.com/pt/forex/bbas3-banco-do-brasil-resultado-1t26-risco-agro-provisoes",
+      "title": "BBAS3: O Banco do Brasil Vai Decepcionar no 1T26 — e o Mercado Ainda Não Precificou Tudo | EBC Financial Group",
+      "cited_text": "O BTG projeta lucro entre R$ 3 bilhões e R$ 3.5 bilhões no 1T26. de 15% a 30% abaixo do consenso de mercado. A margem financeira deve recuar cerca de ..."
+    }
+  ],
+  "usage": {
+    "input_tokens": 217660,
+    "output_tokens": 4197
+  }
+}
