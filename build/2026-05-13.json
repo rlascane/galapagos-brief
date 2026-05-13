@@ -1,0 +1,153 @@
+{
+  "date_iso": "2026-05-13",
+  "date_pt": "quarta-feira, 13 de maio de 2026",
+  "generated_at_br": "2026-05-13T14:37:54.113067-03:00",
+  "model": "claude-opus-4-7",
+  "body_md": "Vou apurar os dados de mercado das últimas horas com buscas direcionadas.Tenho dados sólidos de equities. Agora preciso de juros (curva DI, NTN-B, Treasury 10Y), commodities específicas, e política doméstica BR.Tenho dados sólidos. Agora preciso de política doméstica (taxa das blusinhas, Petrobras, Banco do Brasil), agenda do dia e PPI EUA.Tenho material suficiente. Vou agora compor o briefing executivo.\n\n## Top 3 do Dia\n\n- **Risco fiscal doméstico reabre**: Lula assinou MP zerando \"taxa das blusinhas\" — União abre mão de ~R$ 5 bi/ano com meta fiscal de 2026 (superávit de R$ 34,3 bi) já em déficit projetado de ~R$ 60 bi antes da assinatura. Abrir mão desse volume de dinheiro dificulta o cumprimento da meta fiscal de 2026, que exige um superávit de R$ 34,3 bilhões, ou 0,25% do PIB. As contas públicas já apontavam um déficit próximo de R$ 60 bilhões antes da assinatura desta MP.\n- **CPI dos EUA acelera para 3,8% a.a. (máxima desde mai/23)** e o consumer price index rose by 3.8% annually in April, the most since May 2023. Economists polled by Dow Jones expected an increase of 3.7% from the year-earlier period. Excluding food and energy, inflation rose by 2.8% annually; o yield do Treasury de 10 anos subiu para cerca de 4,42% na terça-feira, atingindo máxima de uma semana.\n- **Brent sustenta US$ 107 com Ormuz parcialmente fechado**: Brent crude futures held around $107 per barrel on Wednesday after rising for three straight sessions, as the prolonged conflict in the Middle East and the continued near-closure of the crucial Strait of Hormuz tightened global energy supplies. Efforts to broker an end to the US-Iran war have yet to produce meaningful progress, while the fragile ceasefire remained at risk after Washington dismissed Tehran's latest response to a proposed peace framework. Hormuz continues to face restrictions from both US and Iranian forces — repasse a inflação global segue em curso.\n\n## Brasil\n\n**Renda Variável** — Ibovespa encerrou com recuo de 0,86%, aos 180.342,33 pontos. O dólar à vista fechou com leve alta de 0,08%, cotado a R$ 4,8949. No ano, a divisa dos EUA acumula baixa de 10,82% ante o real. Segunda sessão consecutiva em queda, com mínima abaixo de 180 mil. Volume na B3 de R$ 29,13 bilhões em 3,89 milhões de negócios. Destaques: TRAD3 +46,98%, BRKM5 +29,02% (Braskem após upgrade do JP Morgan para compra, preço-alvo R$ 15). PETR3 e PETR4 recuaram 1,20% e 1,46% após balanço do 1T26, apesar do Brent em alta. Hoje (13/05), Ibovespa engata a segunda queda consecutiva e opera abaixo dos 180 mil pontos; BRKM5 sobe mais de 8% — às 11h18, +8,85%, a R$ 12,92.\n\n**Renda Fixa** — Curva DI em abertura desde 11/05: deterioração das expectativas inflacionárias do Focus e o avanço dos juros futuros. NTN-Bs longas com taxas reais elevadas — Tesouro IPCA+ 2045 (juros semestrais) a IPCA+ 7,20% a.a., Tesouro IPCA+ 2050 a IPCA+ 6,95% a.a., Tesouro IPCA+ 2040 a IPCA+ 7,14% a.a.. Prefixados: Tesouro Prefixado 2032 a 13,97% a.a. e Prefixado 2037 (juros semestrais) a 14,03% a.a.. Selic em 14,5% a.a. após corte de 0,25 p.p. pelo Copom na reunião de 29/04, por unanimidade. Focus subiu projeção da Selic terminal de 2026 de 12,50% para 13,00% a.a..\n\n**Câmbio** — USD/BRL fechou em R$ 4,8954, alta de 0,08%. Dólar oscilou em margens estreitas, fechando perto da estabilidade, ainda que no exterior tenha sustentado ganhos ante boa parte das demais divisas, em meio ao impasse entre Irã e EUA. DXY avançou 0,34%, aos 98.289 pontos. Real segue resiliente sustentado por carry e fluxo exportador de petróleo.\n\n**Macro & Política** — IPCA de abril veio em 0,67%, com acumulado em 12 meses agora em 4,39% — acima do centro da meta (3%) e flertando com o teto (4,5%). Lula assinou MP que zera a \"taxa das blusinhas\"; MP publicada na noite de 12/05 e em vigor a partir de quarta (13). Fazenda passa a ter poder de alterar alíquotas no regime de tributação simplificada das remessas postais internacionais e zerar a tributação de compras internacionais de até US$ 50. Entre janeiro e abril de 2026, a Receita Federal recolheu R$ 1,78 bilhão com esse tributo, salto de 25% sobre 2025. No ano passado, o total arrecadado foi R$ 5 bilhões. Leitura política: receio de desgaste eleitoral levou Lula a decidir pelo fim da taxa; Planalto avalia que a medida virou símbolo negativo do governo junto às classes C e D.\n\n## Global\n\n**EUA** — S&P 500 caiu 0,16%, fechando em 7.400,96; Nasdaq Composite cedeu 0,71% para 26.088,20; Dow Jones avançou 56,09 pontos, ou 0,11%, encerrando a 49.760,56. Tech sector liderou as perdas (-1,5%). Stocks lower at opening bell as investors reacted to hotter-than-expected inflation data and stalled peace talks between the U.S. and Iran. Treasury 10Y em ~4,42%; spread 10Y-2Y em 0,46 p.p. em 12/05. Mercado vê 97,6% de probabilidade de manutenção dos juros na faixa entre 3,50% e 3,75% na reunião de junho do Fed. Futuros hoje: S&P Futures +0,20%, Nasdaq Futures +0,69%, Dow Futures -0,28%. Político: Kevin Warsh teve aprovação no Senado por 51-45, mostly party-line — caminho aberto para presidir o Fed.\n\n**Europa & Ásia** — Europa fechou em forte queda; STOXX Europe 600 recuou 1,01%, aos 606,63 pontos, com crise política no Reino Unido somando-se ao risco geopolítico. FTSE 100 em 10.341,31 (+0,74%); DAX em 24.099,81 (+0,60%) em referências mais recentes. Ásia mista — Nikkei 225 avançou 0,52%, aos 62.742,57 pontos. Hang Seng e CSI 300: dado não disponível em fonte confiável.\n\n**Commodities** — Brent caiu para US$ 107,05/bbl em 13/05, recuo de 0,67%; WTI subiu para US$ 102,05/bbl em 12/05, alta de 4,06% no dia, hoje recuando abaixo de US$ 102. Ouro a US$ 4.713/oz (+0,57%). Minério de ferro caiu para US$ 111,11/t em 12/05, queda de 0,28% ante dia anterior; no mês, +3,79%. Soja: dado não disponível em fonte confiável para a última sessão. Driver dominante: Saudi Aramco CEO Amin Nasser warned that the market is losing roughly 100 million barrels of supply each week.\n\n## Agenda do Dia\n\n- **Brasil 09:00** — PMS do IBGE (releitura prevista pelo mercado em ~0,1% mensal).\n- **EUA 09:30 (BRT)** — PPI (Produtor) e Vendas no Varejo de abril; PPI é input do PCE-core, métrica preferida do Fed.\n- **EUA** — Pedidos semanais de seguro-desemprego; discursos de dirigentes do Federal Reserve.\n- **Brasil pós-fechamento** — Banco do Brasil (BBAS3) divulga 1T26 em 13/05 conforme calendário de RI. Consenso Bloomberg: lucro líquido de R$ 4,107 bilhões, queda de 44,3% YoY. Também reportam: CSN (CSNA3), CSN Mineração (CMIN3), Equatorial (EQTL3), SLC Agrícola (SLCE3), Eneva (ENEV3), Comgás (CGAS5), Casas Bahia (BHIA3), Americanas (AMER3).\n- **Internacional corporativo** — Resultados de Nebius, Allianz e Alibaba.\n- **Geopolítica 14-15/05** — Visita de Trump à China para reunião com Xi Jinping nos dias 14 e 15 de maio; pauta inclui Irã, Taiwan, IA e minerais críticos.\n- **IPO** — Cerebras precifica hoje, listagem amanhã — maior listagem de 2026 até agora.\n\n## O Que Monitorar\n\n1. **Slope da curva longa BR pós-MP da taxa de remessas + IPCA 4,39%**: a combinação de (i) afrouxamento fiscal pontual em ano eleitoral, (ii) inflação ainda pressionada por petróleo e (iii) Copom incompleto pode ampliar prêmio nos vértices a partir de 2030. Guidance do BB projeta lucro entre R$ 22 bi e R$ 26 bi para 2026 — leitura do agro no 1T26 ditará se o mercado revisa risco-país via spreads bancários. Atenção a fluxos saindo de NTN-B longas.\n\n2. **Transmissão Brent → IPCA → Selic**: Vale revisou premissas considerando Brent a US$ 104/bbl, minério a US$ 112/t e câmbio R$ 4,90 para mai-dez/26, sinalizando que corporates já operam com cenário \"guerra prolongada\". Se Brent persistir acima de US$ 105, IPCA tende a romper 4,5% nos próximos prints, comprimindo espaço para corte adicional de Selic em junho. Bias: reduzir duration em pré, manter NTN-B curtas.\n\n3. **Risco de \"armadilha de valor\" em BBAS3**: Algumas casas projetam lucro na faixa entre R$ 3 bi e R$ 3,8 bi, abaixo do consenso de R$ 4,1 bi. BBAS3 a 0,7x valor patrimonial é o menor nível em meses. Surpresa negativa em provisões agro derrama em CMIN3/SLCE3 amanhã; surpresa positiva pode disparar rotação para o setor bancário. Monitorar também leitura cruzada com cúpula Trump-Xi para soja e minério.",
+  "citations": [
+    {
+      "url": "https://www.hardware.com.br/noticias/lula-zera-imposto-importacao-50-dolares-taxa-blusinhas/",
+      "title": "Fim da taxa das blusinhas: Governo encerra imposto de 20% em compras internacionais de até US$ 50 - Hardware.com.br",
+      "cited_text": "Abrir mão desse volume de dinheiro dificulta o cumprimento da meta fiscal de 2026, que exige um superávit de R$ 34,3 bilhões, ou 0,25% do PIB. As cont..."
+    },
+    {
+      "url": "https://www.cnbc.com/2026/05/11/stock-market-today-live-updates.html",
+      "title": "S&P 500 slips from record Tuesday as chips rally takes a breather and inflation comes in hot: Live updates",
+      "cited_text": "The consumer price index rose by 3.8% annually in April, the most since May 2023. Economists polled by Dow Jones expected an increase of 3.7% from the..."
+    },
+    {
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+      "title": "US 10 Year Treasury Note Yield - Quote - Chart - Historical Data - News",
+      "cited_text": "The yield on the US 10-year Treasury note rose to around 4.42% on Tuesday, reaching a one-week high as President Donald Trump cast doubt on the durabi..."
+    },
+    {
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "title": "Brent crude oil - Price - Chart - Historical Data - News",
+      "cited_text": "Brent crude futures held around $107 per barrel on Wednesday after rising for three straight sessions, as the prolonged conflict in the Middle East an..."
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/economia/mercado/mercado-financeiro-ibovespa-dolar-12-maio-2026/",
+      "title": "Ibovespa fecha em queda com IPCA e balanços no radar; dólar sobe a R$ 4,89 | CNN Brasil",
+      "cited_text": "O Ibovespa encerrou o dia com recuo de 0,86%, aos 180.342,33 pontos. Já o dólar à vista fechou com leve alta de 0,08%, cotado a R$ 4,8949. No ano, a d..."
+    },
+    {
+      "url": "https://www.atualidadepolitica.com.br/2026/05/ibovespa-conclui-ultima-sessao-aos.html",
+      "title": "Ibovespa conclui última sessão aos 180.342 pontos | Atualidade Política",
+      "cited_text": "Confira as ações com melhor e pior desempenho no último fechamento: ... Braskem S.A. Pfd A (BRKM5) +29,02% ... O volume total negociado na B3 foi de R..."
+    },
+    {
+      "url": "https://www.seudinheiro.com/2026/bolsa-dolar/ibovespa-recua-aos-180-mil-pontos-com-ipca-e-queda-da-petrobras-petr4-dolar-fecha-a-r-489-lvgb/",
+      "title": "A combinação explosiva que fez o Ibovespa fechar em queda e manteve o dólar em R$ 4,89 - Seu Dinheiro",
+      "cited_text": "Mesmo com a disparada do petróleo no mercado internacional, os papéis ordinários (PETR3) e preferenciais (PETR4) da Petrobras recuaram 1,20% e 1,46%, ..."
+    },
+    {
+      "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-13-04-2026-jals-lils-apsa-2/",
+      "title": "Tempo Real: Ibovespa recua com varejistas de olho em 'taxa das blusinhas'; dólar sobe com exterior – Money Times",
+      "cited_text": "... Sinal amarelo: Ibovespa perde os 180 mil pontos e deve manter tendência de correção no curto prazo · O Ibovespa (IBOV) engata a segunda queda cons..."
+    },
+    {
+      "url": "https://www.atualidadepolitica.com.br/2026/05/ibovespa-fecha-ultimo-pregao-em-queda.html",
+      "title": "Ibovespa fecha último pregão em queda, aos 181.908 pontos | Atualidade Política",
+      "cited_text": "Além disso, analistas do mercado financeiro consideram que a deterioração das expectativas inflacionárias do Focus e o avanço dos juros futuros contri..."
+    },
+    {
+      "url": "https://investidor10.com.br/noticias/tesouro-direto-volta-a-pagar-14-ao-ano-em-maio-de-2026-120168/",
+      "title": "Tesouro Direto volta a pagar 14% ao ano em maio de 2026 - Investidor10",
+      "cited_text": "Tesouro Prefixado 2029 = Aporte mínimo de R$ 7,09 (Rentabilidade: 13,86% ao ano) Tesouro Prefixado 2032 = Aporte mínimo de R$ 4,87 (Rentabilidade: 13,..."
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-04/banco-central-reduz-juros-basicos-para-145-ao-ano",
+      "title": "Banco Central reduz juros básicos para 14,5% ao ano | Agência Brasil",
+      "cited_text": "Por unanimidade, o Comitê de Política Monetária (Copom) reduziu a Taxa Selic, juros básicos da economia, em 0,25 ponto percentual, para 14,5% ao ano. "
+    },
+    {
+      "url": "https://www.poder360.com.br/poder-economia/banco-central-corta-selic-em-025-p-p-e-taxa-cai-para-1450/",
+      "title": "Banco Central corta Selic em 0,25 p.p. e taxa cai para 14, ...",
+      "cited_text": "Há 1 mês, o Focus dizia que as projeções eram de uma Selic a 12,50% ao ano em 2026. O percentual subiu para 13% ao ano. "
+    },
+    {
+      "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/05/presidente-lula-assina-mp-para-zerar-a-taxa-das-blusinhas",
+      "title": "Presidente Lula assina MP para zerar a taxa das blusinhas — Planalto",
+      "cited_text": "Medida foi possível devido ao sucesso do Governo do Brasil no combate ao contrabando e na regularização do setor · Compartilhe: Compartilhe por Facebo..."
+    },
+    {
+      "url": "https://www.poder360.com.br/poder-governo/receio-eleitoral-levou-lula-a-acabar-com-taxa-das-blusinhas/",
+      "title": "Receio eleitoral levou Lula a acabar com taxa das blusinhas",
+      "cited_text": "O receio de desgaste eleitoral levou o presidente Luiz Inácio Lula da Silva (PT) a decidir pelo fim da chamada “taxa das blusinhas”, imposto federal s..."
+    },
+    {
+      "url": "https://www.thestreet.com/latest-news/stock-market-today-may-12-2026-updates",
+      "title": "Stock Market Today (May 12, 2026): Nasdaq, Russell 2000 recover some losses after inflation, oil prices rise - TheStreet",
+      "cited_text": "The U.S. stock market is now open. Stocks were lower at the opening bell as investors reacted to hotter-than-expected inflation data and stalled peace..."
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/T10Y2Y",
+      "title": "10-Year Treasury Constant Maturity Minus 2-Year Treasury Constant Maturity (T10Y2Y) | FRED | St. Louis Fed",
+      "cited_text": "2026-05-12: 0.46 | Percent, Not Seasonally Adjusted | Daily · Updated: May 12, 2026 4:02 PM CDT · Next Release Date: May 13, 2026 · Observations · 202..."
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/history/",
+      "title": "S&P 500 (^GSPC) Historical Data - Yahoo Finance",
+      "cited_text": "About our ads Advertising Careers · Yahoo Finance · Mail · Sign in · US Markets · US Markets · Europe Markets · Asia Markets · Cryptocurrencies · Rate..."
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/%5EDJI/history/",
+      "title": "Dow Jones Industrial Average (^DJI) Historical Data - Yahoo Finance",
+      "cited_text": "Nasdaq Futures · 29,320.50 · +150.50 · +0.52% Russell 2000 Futures · 2,855.40 · +5.00 · +0.18% VIX · 17.98 · -0.01 · -0.06% Gold · 4,713.40 · +26.70 ·..."
+    },
+    {
+      "url": "https://pt.tradingeconomics.com/commodity/crude-oil",
+      "title": "Petróleo Bruto - Preço - Gráfico - Série Histórica - Notícias",
+      "cited_text": "O petróleo bruto subiu para 102,05 USD/Bbl em 12 de maio de 2026, alta de 4,06% em relação ao dia anterior. "
+    },
+    {
+      "url": "https://pt.tradingeconomics.com/commodity/iron-ore",
+      "title": "Minério de Ferro - Preço - Gráfico - Série Histórica - Notícias",
+      "cited_text": "O minério de ferro caiu para 111,11 USD/T em 12 de maio de 2026, uma queda de 0,28% em relação ao dia anterior. No último mês, o preço do minério de f..."
+    },
+    {
+      "url": "https://bmcnews.com.br/investimentos-e-financas/inflacao-no-brasil-cpi-dos-eua-e-balanco-da-petrobras-marcam-a-semana/",
+      "title": "Inflação no Brasil, CPI dos EUA e balanço da Petrobras marcam a semana - BM&C NEWS",
+      "cited_text": "Nos Estados Unidos, além do CPI e do PPI, os investidores acompanham vendas no varejo, pedidos de seguro-desemprego, Índice Empire State, produção ind..."
+    },
+    {
+      "url": "https://arevista.com.br/investimentos/banco-do-brasil-bbas3-vai-divulgar-resultado-decisivo-o-que-pode-pesar-nas-acoes/",
+      "title": "Banco do Brasil (BBAS3) vai divulgar resultado decisivo: o que pode pesar nas ações",
+      "cited_text": "A divulgação das informações trimestrais referentes ao 1º trimestre de 2026 está prevista no calendário de Relações com Investidores do Banco do Brasi..."
+    },
+    {
+      "url": "https://www.seudinheiro.com/2026/empresas/banco-do-brasil-bbas3-mercado-ja-espera-fraqueza-no-1t26-o-medo-agora-e-de-mais-uma-decepcao-miql/",
+      "title": "Banco do Brasil (BBAS3): mercado já espera fraqueza no 1T26 — o medo agora é de mais uma decepção - Seu Dinheiro",
+      "cited_text": "Os analistas projetam lucro líquido de R$ 4,107 bilhões no 1T26, o que representaria um tombo de 44,3% em relação ao mesmo trimestre do ano passado, s..."
+    },
+    {
+      "url": "https://investidor10.com.br/noticias/banco-do-brasil-bbas3-e-mais-100-empresas-divulgam-resultados-do-1t26-na-semana-veja-120298/",
+      "title": "Banco do Brasil (BBAS3) e mais 100 empresas divulgam resultados do 1T26 na semana; veja - Investidor10",
+      "cited_text": "13/05/2026: Multilaser (MLAS3); Time For Fun (SHOW3); CVC (CVCB3); São Carlos (SCAR3); Qualicorp (QUAL3); Bioma (BIOM3); Cedro Têxtil (CEDO4); Melnick..."
+    },
+    {
+      "url": "https://tradingeconomics.com/united-states/stock-market",
+      "title": "United States Stock Market Index - Quote - Chart - Historical Data - News | Trading Economics",
+      "cited_text": "Investors are now turning their attention to another round of corporate earnings due Wednesday, including results from Nebius, Allianz, and Alibaba, a..."
+    },
+    {
+      "url": "https://www.brasil247.com/brasil/vale-preve-ganho-de-us-1-5-bilhao-no-caixa-do-minerio-em-2026-kf9fxirv",
+      "title": "Vale prevê ganho de US$ 1,5 bilhão no caixa do minério em 2026 | Brasil 247",
+      "cited_text": "No cenário pós-conflito: desempenho realizado entre janeiro e abril e preços atuais (spot) aplicados ao período de maio a dezembro de 2026: minério de..."
+    },
+    {
+      "url": "https://arevista.com.br/investimentos/bbas3-pode-cair-com-resultado-do-1t26-lucro-agro-e-dividendos-entram-no-radar/",
+      "title": "BBAS3 pode cair com resultado do 1T26? Lucro, agro e dividendos entram no radar",
+      "cited_text": "O esboço aponta que analistas esperavam lucro próximo de R$ 4,1 bilhões no 1T26, mas algumas casas projetavam números inferiores, na faixa entre R$ 3 ..."
+    },
+    {
+      "url": "https://www.ebc.com/pt/forex/petrobras-banco-do-brasil-resultado-1t26-petr4-bbas3",
+      "title": "Petrobras divulga hoje e Banco do Brasil na quarta: uma vai surpreender para cima e a outra pode decepcionar - você sabe qual é qual? | EBC Financial Group",
+      "cited_text": "BBAS3 opera a R$ 21.67. em queda de 0.78% no dia, negociada a 0.7x o valor patrimonial, o menor nível em meses. "
+    }
+  ],
+  "usage": {
+    "input_tokens": 224789,
+    "output_tokens": 5572
+  }
+}
