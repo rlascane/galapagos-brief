@@ -1,0 +1,427 @@
+/* ---------------------------------------------------------------------
+   Galapagos Briefing — Editorial broadsheet
+   Tipografia: Fraunces (display) · Source Serif 4 (body) · JetBrains Mono (data)
+   Paleta: cream/ink/vermilion
+   --------------------------------------------------------------------- */
+
+:root {
+  --paper:        #f6f1e6;
+  --paper-edge:   #ede6d3;
+  --ink:          #18191c;
+  --ink-soft:     #2f3038;
+  --muted:        #6f6b5d;
+  --rule:         #c9c0a6;
+  --rule-soft:    #ddd5be;
+  --accent:       #a8341f;
+  --accent-soft:  #d2674e;
+  --up:           #2e6f4f;
+  --down:         #a8341f;
+
+  --font-display: "Fraunces", "Source Serif 4", Georgia, serif;
+  --font-body:    "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-mono:    "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --max-width:    760px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.55;
+  font-feature-settings: "kern", "liga", "onum";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-image:
+    radial-gradient(circle at 0% 0%, rgba(168, 52, 31, 0.025) 0%, transparent 40%),
+    radial-gradient(circle at 100% 100%, rgba(46, 111, 79, 0.02) 0%, transparent 50%);
+  min-height: 100vh;
+}
+
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 56px 32px 64px;
+}
+
+/* ---------------------------------------------------------------------
+   Masthead
+   --------------------------------------------------------------------- */
+
+.masthead__rule {
+  height: 1px;
+  background: var(--rule);
+}
+.masthead__rule--thick {
+  height: 3px;
+  background: var(--ink);
+}
+
+.masthead__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 18px 0 16px;
+  gap: 24px;
+}
+
+.masthead__title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variation-settings: "opsz" 144;
+  color: var(--ink);
+}
+
+.masthead__sub {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 6px;
+}
+
+.masthead__meta {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.masthead__date {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--ink-soft);
+  font-variation-settings: "opsz" 14;
+}
+
+.masthead__edition {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+/* ---------------------------------------------------------------------
+   Topnav
+   --------------------------------------------------------------------- */
+
+.topnav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 14px 0 28px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.topnav__link {
+  color: var(--ink-soft);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1px;
+  transition: border-color 0.15s, color 0.15s;
+}
+.topnav__link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.topnav__sep { color: var(--rule); }
+
+/* ---------------------------------------------------------------------
+   Brief body — markdown rendered output
+   --------------------------------------------------------------------- */
+
+.brief {
+  margin-top: 12px;
+}
+
+.brief h2 {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 38px 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--rule);
+  font-variation-settings: "opsz" 9;
+}
+
+.brief h2:first-child {
+  margin-top: 0;
+}
+
+/* Sub-categories — bold text at start of paragraph (e.g. "**Renda Variável** — ...") */
+.brief p strong {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--ink);
+  font-variation-settings: "opsz" 14;
+}
+
+.brief p {
+  margin: 0 0 14px;
+  text-align: left;
+  hyphens: auto;
+}
+
+.brief ul, .brief ol {
+  margin: 0 0 18px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.brief ul li, .brief ol li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 10px;
+}
+
+.brief ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.72em;
+  width: 10px;
+  height: 1px;
+  background: var(--accent);
+}
+
+.brief ol {
+  counter-reset: brief-ol;
+}
+.brief ol li {
+  counter-increment: brief-ol;
+}
+.brief ol li::before {
+  content: counter(brief-ol) ".";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* Highlight numbers/percentages in mono — applied via post-processing if desired,
+   but also covered by the natural fallback below */
+.brief em {
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.brief a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-soft);
+}
+.brief a:hover {
+  border-bottom-color: var(--accent);
+}
+
+/* Drop-cap on first paragraph after Top 3 — subtle editorial touch */
+.brief h2:first-child + ul li:first-child::before {
+  background: var(--ink);
+  height: 2px;
+  top: 0.65em;
+}
+
+/* ---------------------------------------------------------------------
+   Footnotes / Sources
+   --------------------------------------------------------------------- */
+
+.footnotes {
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+}
+
+.footnotes__title {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 14px;
+}
+
+.footnotes__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: footnote;
+  column-count: 2;
+  column-gap: 32px;
+  column-rule: 1px solid var(--rule-soft);
+}
+
+.footnotes__item {
+  counter-increment: footnote;
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+.footnotes__item::before {
+  content: counter(footnote);
+  position: absolute;
+  left: 0;
+  top: 1px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  width: 16px;
+}
+
+.footnotes__item a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule);
+  transition: color 0.15s, border-color 0.15s;
+}
+.footnotes__item a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* ---------------------------------------------------------------------
+   Archive list
+   --------------------------------------------------------------------- */
+
+.archive { margin-top: 12px; }
+
+.archive__empty {
+  font-style: italic;
+  color: var(--muted);
+}
+
+.archive__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.archive__item {
+  border-bottom: 1px solid var(--rule-soft);
+}
+.archive__item:first-child {
+  border-top: 1px solid var(--rule);
+}
+
+.archive__link {
+  display: block;
+  padding: 20px 0;
+  text-decoration: none;
+  color: var(--ink);
+  transition: background 0.15s;
+}
+.archive__link:hover {
+  background: rgba(168, 52, 31, 0.04);
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 0 -8px;
+}
+
+.archive__date {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 17px;
+  color: var(--ink);
+  font-variation-settings: "opsz" 14;
+}
+
+.archive__teaser {
+  margin-top: 6px;
+  font-size: 15px;
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+
+/* ---------------------------------------------------------------------
+   Colophon
+   --------------------------------------------------------------------- */
+
+.colophon {
+  margin-top: 64px;
+}
+
+.colophon__rule {
+  height: 1px;
+  background: var(--rule);
+}
+
+.colophon__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.colophon__brand {
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+.colophon__sep {
+  color: var(--rule);
+  margin: 0 2px;
+}
+
+/* ---------------------------------------------------------------------
+   Responsive
+   --------------------------------------------------------------------- */
+
+@media (max-width: 640px) {
+  .page { padding: 32px 20px 48px; }
+  .masthead__row { flex-direction: column; align-items: flex-start; }
+  .masthead__meta { text-align: left; }
+  .masthead__title { font-size: 32px; }
+  .footnotes__list { column-count: 1; }
+  body { font-size: 16px; }
+}
+
+/* ---------------------------------------------------------------------
+   Print
+   --------------------------------------------------------------------- */
+
+@media print {
+  body { background: white; }
+  .page { padding: 0; max-width: 100%; }
+  .topnav, .colophon { display: none; }
+  .brief h2 { page-break-after: avoid; }
+  .footnotes { page-break-before: avoid; }
+  a { color: var(--ink) !important; border-bottom: none !important; }
+  .footnotes__item a::after { content: " (" attr(href) ")"; font-size: 9px; color: var(--muted); }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Briefing Galapagos — {{ date_pt }}</title>
+  <meta name="description" content="Leitura matinal de mercado · Galapagos Capital · {{ date_pt }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% if is_latest %}assets/style.css{% else %}../assets/style.css{% endif %}" />
+</head>
+<body>
+  <div class="page">
+
+    <header class="masthead">
+      <div class="masthead__rule"></div>
+      <div class="masthead__row">
+        <div class="masthead__brand">
+          <div class="masthead__title">Briefing Matinal</div>
+          <div class="masthead__sub">Galapagos Capital · Leitura de Mercado</div>
+        </div>
+        <div class="masthead__meta">
+          <div class="masthead__date">{{ date_pt }}</div>
+          <div class="masthead__edition">Edição · {{ date_iso }}</div>
+        </div>
+      </div>
+      <div class="masthead__rule masthead__rule--thick"></div>
+    </header>
+
+    <nav class="topnav">
+      <a href="{% if is_latest %}#{% else %}../index.html{% endif %}" class="topnav__link">Última edição</a>
+      <span class="topnav__sep">·</span>
+      <a href="{% if is_latest %}archive/{% else %}./{% endif %}" class="topnav__link">Arquivo</a>
+    </nav>
+
+    <main class="brief">
+      {{ body_html | safe }}
+    </main>
+
+    {% if citations %}
+    <section class="footnotes">
+      <h2 class="footnotes__title">Fontes</h2>
+      <ol class="footnotes__list">
+        {% for cit in citations %}
+        <li class="footnotes__item">
+          <a href="{{ cit.url }}" target="_blank" rel="noopener noreferrer">{{ cit.title or cit.url }}</a>
+        </li>
+        {% endfor %}
+      </ol>
+    </section>
+    {% endif %}
+
+    <footer class="colophon">
+      <div class="colophon__rule"></div>
+      <div class="colophon__row">
+        <div class="colophon__left">
+          <span class="colophon__brand">Galapagos Capital</span>
+          <span class="colophon__sep">·</span>
+          <span>Uso interno</span>
+        </div>
+        <div class="colophon__right">
+          <span title="Gerado em">⟢ {{ generated_at_br[:16] | replace('T', ' ') }} BRT</span>
+          <span class="colophon__sep">·</span>
+          <span title="Modelo">{{ model }}</span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
