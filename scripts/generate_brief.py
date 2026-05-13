@@ -1,13 +1,5 @@
 """
-generate_brief.py — Gera o briefing executivo diário Galapagos.
-
-Chama a Anthropic API com a ferramenta web_search habilitada, restrita
-a fontes confiáveis (Valor, InfoMoney, Bloomberg, Reuters, FT, WSJ,
-BCB, B3). Salva o markdown bruto + metadados de citação em JSON
-para o render.py consumir.
-
-Roda dentro do GitHub Actions; espera ANTHROPIC_API_KEY como variável
-de ambiente.
+generate_brief.py - Gera o briefing executivo diario Galapagos.
 """
 
 from __future__ import annotations
@@ -21,117 +13,90 @@ from zoneinfo import ZoneInfo
 
 import anthropic
 
-# ---------------------------------------------------------------------------
-# Configuração
-# ---------------------------------------------------------------------------
-
 MODEL = "claude-opus-4-7"
 MAX_TOKENS = 8000
 MAX_SEARCH_USES = 15
-
-# Fontes priorizadas, em ordem de relevância para asset Brasil + UHNW
-ALLOWED_DOMAINS = [
-    "valor.globo.com",
-    "valor.com.br",
-    "infomoney.com.br",
-    "bloomberg.com",
-    "reuters.com",
-    "ft.com",
-    "wsj.com",
-    "bcb.gov.br",
-    "b3.com.br",
-    "tesouro.gov.br",
-    "economia.estadao.com.br",
-    "agenciabrasil.ebc.com.br",
-    "cnbc.com",
-]
 
 TZ_BR = ZoneInfo("America/Sao_Paulo")
 
 DIAS_SEMANA_PT = {
     0: "segunda-feira",
-    1: "terça-feira",
+    1: "terca-feira",
     2: "quarta-feira",
     3: "quinta-feira",
     4: "sexta-feira",
-    5: "sábado",
+    5: "sabado",
     6: "domingo",
 }
 
 MESES_PT = {
-    1: "janeiro", 2: "fevereiro", 3: "março", 4: "abril",
+    1: "janeiro", 2: "fevereiro", 3: "marco", 4: "abril",
     5: "maio", 6: "junho", 7: "julho", 8: "agosto",
     9: "setembro", 10: "outubro", 11: "novembro", 12: "dezembro",
 }
 
 
-def format_date_pt(dt: datetime) -> str:
+def format_date_pt(dt):
     return f"{DIAS_SEMANA_PT[dt.weekday()]}, {dt.day} de {MESES_PT[dt.month]} de {dt.year}"
 
 
-# ---------------------------------------------------------------------------
-# Prompt
-# ---------------------------------------------------------------------------
-
-def build_prompt(now_br: datetime) -> str:
+def build_prompt(now_br):
     date_pt = format_date_pt(now_br)
-    return f"""Você é o analista sênior responsável pela leitura matinal de mercado da Galapagos Capital, asset focada em clientes UHNW brasileiros e internacionais.
+    return f"""Voce e o analista senior responsavel pela leitura matinal de mercado da Galapagos Capital, asset focada em clientes UHNW brasileiros e internacionais.
 
 CONTEXTO
 - Data: {date_pt}
-- Horário atual: {now_br.strftime('%H:%M')} (Brasília)
-- Audiência: equipe interna de gestão (PMs, analistas, relacionamento)
-- Formato: briefing executivo de 1 página, leitura em 5 minutos
-- Idioma: português brasileiro
-- Tom: factual, denso, sem floreios. Estilo Valor/FT, não estilo portal.
+- Horario atual: {now_br.strftime('%H:%M')} (Brasilia)
+- Audiencia: equipe interna de gestao (PMs, analistas, relacionamento)
+- Formato: briefing executivo de 1 pagina, leitura em 5 minutos
+- Idioma: portugues brasileiro
+- Tom: factual, denso, sem floreios. Estilo Valor/FT, nao estilo portal.
 
 TAREFA
-Use a ferramenta web_search para apurar o que aconteceu nas últimas ~18 horas em mercados, política econômica e geopolítica que impactem alocação de capital. Faça múltiplas buscas direcionadas — não apenas uma. Cubra:
+Use a ferramenta web_search para apurar o que aconteceu nas ultimas ~18 horas em mercados, politica economica e geopolitica que impactem alocacao de capital. Faca multiplas buscas direcionadas. Cubra:
 
 1. Fechamento e abertura dos mercados (Brasil e EUA)
-2. Decisões e sinalizações de bancos centrais (BCB, Fed, BCE)
-3. Política doméstica brasileira com impacto fiscal/regulatório
-4. Movimentos relevantes em commodities, câmbio e juros longos
+2. Decisoes e sinalizacoes de bancos centrais (BCB, Fed, BCE)
+3. Politica domestica brasileira com impacto fiscal/regulatorio
+4. Movimentos relevantes em commodities, cambio e juros longos
 5. Eventos corporativos materiais (M&A, resultados, IPOs)
 
-ESTRUTURA OBRIGATÓRIA (markdown puro, sem code fences, sem H1)
+Priorize fontes como Valor Economico, InfoMoney, Bloomberg, Reuters, Financial Times, WSJ, BCB, B3.
+
+ESTRUTURA OBRIGATORIA (markdown puro, sem code fences, sem H1)
 
 ## Top 3 do Dia
-Três bullets de uma linha cada — os movimentos mais relevantes para decisão de alocação hoje. Sem rodeios.
+Tres bullets de uma linha cada - os movimentos mais relevantes para decisao de alocacao hoje. Sem rodeios.
 
 ## Brasil
-**Renda Variável** — Ibovespa fechamento prévio com pontos e variação %, principais altas e baixas, fluxo estrangeiro se disponível.
-**Renda Fixa** — curva DI (vértices curtos e longos), NTN-B 2035/2045, Selic implícita.
-**Câmbio** — USDBRL último, máxima/mínima do dia anterior, drivers principais.
-**Macro & Política** — o que o BC, Fazenda, Congresso fizeram ou sinalizaram nas últimas 24h.
+**Renda Variavel** - Ibovespa fechamento previo com pontos e variacao %, principais altas e baixas, fluxo estrangeiro se disponivel.
+**Renda Fixa** - curva DI (vertices curtos e longos), NTN-B 2035/2045, Selic implicita.
+**Cambio** - USDBRL ultimo, maxima/minima do dia anterior, drivers principais.
+**Macro & Politica** - o que o BC, Fazenda, Congresso fizeram ou sinalizaram nas ultimas 24h.
 
 ## Global
-**EUA** — S&P 500, Nasdaq, Dow (% do dia), Treasury 10Y, dólar (DXY), sinais do Fed.
-**Europa & Ásia** — DAX, FTSE, Nikkei, Hang Seng, CSI 300 — só o que importa.
-**Commodities** — Brent, WTI, ouro, minério de ferro (Dalian/Singapura), soja.
+**EUA** - S&P 500, Nasdaq, Dow (% do dia), Treasury 10Y, dolar (DXY), sinais do Fed.
+**Europa & Asia** - DAX, FTSE, Nikkei, Hang Seng, CSI 300 - so o que importa.
+**Commodities** - Brent, WTI, ouro, minerio de ferro (Dalian/Singapura), soja.
 
 ## Agenda do Dia
-Eventos econômicos com horário (BR/UTC), leilões do Tesouro, decisões esperadas, divulgações corporativas relevantes.
+Eventos economicos com horario (BR/UTC), leiloes do Tesouro, decisoes esperadas, divulgacoes corporativas relevantes.
 
 ## O Que Monitorar
-Dois ou três temas analíticos para acompanhar nas próximas 24-48h. Aqui é onde você adiciona viés interpretativo — o que pode mexer com book.
+Dois ou tres temas analiticos para acompanhar nas proximas 24-48h. Aqui e onde voce adiciona vies interpretativo - o que pode mexer com book.
 
 REGRAS DE ESCRITA
-- Sempre cite número e fonte de forma natural. Ex: "Ibovespa fechou em 132.450 pontos (+0,8%) na véspera."
-- Se um dado não estiver verificado por uma fonte confiável, escreva "dado não disponível" — NUNCA invente número.
+- Sempre cite numero e fonte de forma natural. Ex: "Ibovespa fechou em 132.450 pontos (+0,8%) na vespera."
+- Se um dado nao estiver verificado por uma fonte confiavel, escreva "dado nao disponivel" - NUNCA invente numero.
 - Sem disclaimers de fim de e-mail.
-- Sem frases como "espero que isso ajude" ou "abraços".
+- Sem frases como "espero que isso ajude" ou "abracos".
 - Sem repetir a data no corpo (ela vai no header do template).
-- Bullets curtos. Parágrafos curtos. Densidade alta, palavras enxutas.
+- Bullets curtos. Paragrafos curtos. Densidade alta, palavras enxutas.
 
-Comece direto pelo "## Top 3 do Dia". Não escreva preâmbulo."""
+Comece direto pelo "## Top 3 do Dia". Nao escreva preambulo."""
 
 
-# ---------------------------------------------------------------------------
-# API call
-# ---------------------------------------------------------------------------
-
-def call_claude(prompt: str) -> anthropic.types.Message:
+def call_claude(prompt):
     client = anthropic.Anthropic()
     return client.messages.create(
         model=MODEL,
@@ -145,3 +110,76 @@ def call_claude(prompt: str) -> anthropic.types.Message:
         ],
         messages=[{"role": "user", "content": prompt}],
     )
+
+
+def extract_brief(response):
+    text_parts = []
+    citations = []
+    seen_urls = set()
+
+    for block in response.content:
+        if block.type == "text":
+            text_parts.append(block.text)
+            block_citations = getattr(block, "citations", None) or []
+            for cit in block_citations:
+                cit_dict = cit if isinstance(cit, dict) else cit.model_dump()
+                url = cit_dict.get("url")
+                if url and url not in seen_urls:
+                    seen_urls.add(url)
+                    citations.append({
+                        "url": url,
+                        "title": cit_dict.get("title", url),
+                        "cited_text": cit_dict.get("cited_text", ""),
+                    })
+
+    return "".join(text_parts).strip(), citations
+
+
+def main():
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        print("ERRO: ANTHROPIC_API_KEY nao definido.", file=sys.stderr)
+        return 1
+
+    now_br = datetime.now(TZ_BR)
+    prompt = build_prompt(now_br)
+
+    print(f"[generate_brief] Chamando {MODEL} em {now_br.isoformat()}...")
+    response = call_claude(prompt)
+
+    body, citations = extract_brief(response)
+    if not body:
+        print("ERRO: resposta sem conteudo de texto.", file=sys.stderr)
+        return 2
+
+    usage = response.usage
+    print(
+        f"[generate_brief] tokens: input={usage.input_tokens} "
+        f"output={usage.output_tokens} | citacoes: {len(citations)}"
+    )
+
+    out_dir = Path(__file__).resolve().parent.parent / "build"
+    out_dir.mkdir(exist_ok=True)
+
+    date_iso = now_br.strftime("%Y-%m-%d")
+    payload = {
+        "date_iso": date_iso,
+        "date_pt": format_date_pt(now_br),
+        "generated_at_br": now_br.isoformat(),
+        "model": MODEL,
+        "body_md": body,
+        "citations": citations,
+        "usage": {
+            "input_tokens": usage.input_tokens,
+            "output_tokens": usage.output_tokens,
+        },
+    }
+
+    out_file = out_dir / f"{date_iso}.json"
+    out_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2))
+    print(f"[generate_brief] salvo em {out_file}")
+
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
