@@ -1,113 +1,108 @@
 {
   "date_iso": "2026-05-13",
   "date_pt": "quarta-feira, 13 de maio de 2026",
-  "generated_at_br": "2026-05-13T19:36:04.141897-03:00",
+  "generated_at_br": "2026-05-13T21:27:49.584532-03:00",
   "model": "claude-opus-4-7",
-  "body_md": "Vou apurar os dados de mercado mais recentes para montar o briefing.Good data so far. Now let me search for more specific items: DI curve, NTN-B, commodities details, Brazil politics, and today's agenda.I have enough data. Let me get a few final items: Brazilian fiscal/political news in last 24h, agenda for May 13, and corporate earnings.I have enough data to construct the briefing. Let me compile the final output now.\n\n## Top 3 do Dia\n- **PPI dos EUA dispara 1,4% em abril** (vs. +0,5% esperado) — maior salto mensal desde mar/22, reforçando tese de Fed parado em 3,50-3,75% e juros longos pressionados. A S&P 500, junto com o Nasdaq, recuou das máximas históricas na terça após dados de inflação ao consumidor mais quentes que o esperado. Na quarta, o índice de preços ao produtor saltou 1,4% em abril, o maior aumento mensal desde março de 2022 e muito acima dos 0,5% esperados pelos economistas consultados pela Dow Jones.\n- **Banco do Brasil decepciona: lucro recorrente de R$ 3,4 bi no 1T26 (-53,5% a/a), ROE a 7,3% e guidance cortado** — piso virou teto, agora R$ 18-22 bi vs. R$ 22-26 bi anterior. Risco de reprecificação setorial em BBAS3 amanhã. O lucro líquido recorrente chegou a R$ 3,43 bilhões na largada do ano — um recuo de 53,5% em relação ao mesmo período de 2025 e de 40,2% frente ao trimestre imediatamente anterior. O resultado veio em linha com as expectativas do mercado, que previa um lucro médio de R$ 3,425 bilhões, de acordo com estimativas compiladas pela Bloomberg. Outra vez, a rentabilidade segue como ponto de preocupação do balanço do BB. O retorno sobre o patrimônio líquido médio (ROAE) ficou em 7,3%, com o piso das estimativas virando teto. Agora, o BB espera algo entre R$ 18 bilhões e R$ 22 bilhões.\n- **Brent ancorado em US$ 107, IEA alerta para subabastecimento até outubro** — Estreito de Ormuz segue parcialmente fechado, Aramco fala em perda de 100 mi barris/semana. Vetor inflacionário global persistente. Os futuros do Brent ficaram em torno de US$ 107 por barril na quarta-feira após três sessões de alta, à medida que o conflito prolongado no Oriente Médio e o quase fechamento do crucial Estreito de Ormuz apertaram a oferta global de energia. Esforços para mediar o fim da guerra EUA-Irã ainda não produziram progresso significativo, enquanto o frágil cessar-fogo permaneceu em risco após Washington rejeitar a última resposta de Teerã.\n\n## Brasil\n\n**Renda Variável** — Ibovespa fechou em queda de 0,86% aos 180.342,33 pontos. Dólar à vista subiu 0,08%, cotado a R$ 4,8949. Segunda sessão consecutiva de queda, refletindo o ambiente de cautela no exterior e a pressão das ações da Petrobras (PETR4) após a divulgação do balanço do primeiro trimestre de 2026. Volume de R$ 29,1 bi em 3,89 milhões de negócios. Destaques de alta: TRAD3 +46,98% e BRKM5 +29,02% — Braskem impulsionada por elevação da recomendação do JP Morgan de neutra para compra, com preço-alvo de R$ 15. Fluxo estrangeiro segue negativo: sete pregões consecutivos de saída, retiradas superiores a R$ 8 bilhões.\n\n**Renda Fixa** — Curva DI segue precificando ciclo de cortes lento. Focus mantém Selic 2026 em 13,00% pela segunda semana consecutiva, 2027 em 11,00% e 2028 em 10,00%. Inflação 2026 subiu de 4,86% para 4,89%, na oitava alta consecutiva. Vértices longos e NTN-B 2035/2045: dado granular do dia não disponível em fontes consultadas.\n\n**Câmbio** — USDBRL a R$ 4,8949 (+0,08%); divisa acumula baixa de 10,82% no ano. DXY avançou 0,34%, aos 98,289 pontos, sustentado por busca por proteção em meio a CPI quente e impasse Irã. Real resistiu via diferencial de juros e tese de exportador líquido de petróleo.\n\n**Macro & Política** — IPCA de abril desacelerou para 0,67%, com IPCA 12m em 4,39%, ainda pressionado por núcleos. Galípolo mantém postura cautelosa pós-corte de 25 bps para 14,50% em 29/abr; ata sinalizou que a magnitude e o ciclo de calibração da Selic serão determinados ao longo do tempo, à medida que novas informações forem incorporadas. Pichetti e Renato Gomes seguem sem substitutos indicados pelo Planalto — risco institucional latente.\n\n## Global\n\n**EUA** — S&P 500 -0,16% e Nasdaq -0,71% na sessão regular de terça, enquanto Dow somou 0,11%. Sentimento pressionado por fraqueza em tecnologia e alta do petróleo, com Trump pondo em dúvida a sustentabilidade do cessar-fogo EUA-Irã. Nasdaq fechou a 26.088,20; Russell 2000 a 2.842,83. 10Y subiu 4,9 bps a 4,461%, máxima desde julho. Inflação anual subiu para 3,8% em abril, acima dos 3,7% esperados. FedWatch CME indica 97,6% de probabilidade de manutenção em 3,50-3,75% em junho; investidores passaram a considerar possibilidade de alta a partir de março de 2027. Futuros indicam abertura positiva: US500 subindo 0,18%, aos 7.414 pontos no pré-mercado de 13/mai.\n\n**Europa & Ásia** — Europa fechou em forte queda diante do aumento das tensões geopolíticas e crise política no Reino Unido. Stoxx 600 recuou 1,01%, aos 606,63 pontos. Ásia mista; Nikkei 225 avançou 0,52%, aos 62.742,57 pontos. China sob foco da viagem de Trump a Xi nesta semana.\n\n**Commodities** — Brent +2,97% a US$ 107,31; WTI +3,20% a US$ 101,21. IEA alerta que, com estoques já caindo acentuadamente, maior volatilidade é provável antes do pico de demanda de verão, e o mercado pode permanecer severamente subabastecido até outubro mesmo se o conflito terminar antes. Ouro próximo de US$ 4.708/oz; cobre em recorde histórico (fechou em US$ 6,4605, máxima intradiária em US$ 6,509, alta de mais de 13% em 2026). Dados de minério (Dalian/Singapura) e soja: não disponível em fontes consultadas hoje.\n\n## Agenda do Dia\n\n- **08:00 (BR)** — IGP-10 (FGV) maio.\n- **09:30 (BR) / 12:30 UTC** — PPI EUA abril (já saiu: +1,4%, maior alta mensal desde março de 2022 e bem acima do +0,5% esperado).\n- **Antes do pregão** — Petrobras, Natura&Co, Telefônica já divulgaram.\n- **Após o fechamento** — Banco do Brasil (BBAS3), CSN (CSNA3), CSN Mineração (CMIN3), Eneva (ENEV3), SLC Agrícola (SLCE3), Equatorial (EQTL3), Comgás (CGAS5), Casas Bahia (BHIA3) e Americanas (AMER3) divulgam 1T26. BBAS3 já reportou (lucro R$ 3,4 bi, -53,5% a/a).\n- **Tesouro Nacional** — Leilão tradicional de LFT/NTN-B (5ª feira); confirmar grade.\n- **14-15 maio** — Visita de Trump à China para reunião com Xi Jinping; comércio prevalecerá sobre Irã, segundo sinalização da Casa Branca.\n\n## O Que Monitorar\n\n- **Reprecificação do book de bancos e do crédito agro.** O guidance revisado do BB \"a reavaliação do cenário, em especial a continuidade da dinâmica agravada do risco no agronegócio\" deve respingar em Bradesco e Santander, dado que o BB ficou abaixo de Itaú (ROE 24%), Santander (16%) e Bradesco (15,8%). Dispersão dentro do setor cria espaço para long Itaú/short BB tático. Atenção também a CRAs e fundos de recebíveis agro — risco de marcação adversa.\n- **Curva longa BR x EUA: dois drivers convergindo no mesmo sentido.** PPI quente nos EUA + 10Y a 4,46% (máxima desde jul/25) + Brent ancorado acima de US$ 100 reativam tese de Fed parado por mais tempo. No Brasil, Focus já na oitava alta consecutiva da inflação 2026 sinaliza que o espaço para queda da curva real é limitado. NTN-Bs longas atrativas em carrego, mas marcação a mercado deve seguir volátil — privilegiar vértices intermediários (2030-2035).\n- **Estreito de Ormuz e reunião Trump-Xi (14-15/mai).** Trump indicou que negociações comerciais teriam prioridade sobre os desenvolvimentos do conflito no Irã — qualquer acordo tarifário com Pequim pode destravar fluxo para EM e ser combo positivo para Ibovespa + BRL. Inversamente, escalada militar com fechamento integral do estreito empurra Brent para US$ 115+, conforme \"qualquer escalada ou renovada ameaça de bloqueio levaria rapidamente o Brent de volta para mais de US$ 115\". Manter hedge tático em petróleo e ouro.",
+  "body_md": "Vou apurar os dados de mercado das últimas horas com buscas direcionadas.Tenho dados sólidos. Preciso de: curva DI/NTN-B, Brent/WTI/ouro/minério, BCB Copom, Fed/BCE sinalizações, política doméstica Brasil (Flávio Bolsonaro/Vorcaro, taxa blusinhas), agenda quinta-feira.Excelente. Tenho material robusto. Vou agora buscar agenda de quinta-feira (14/05), taxa das blusinhas e detalhes de juros futuros DI hoje.Tenho dados suficientes. Vou consolidar o briefing. Os dados disponíveis:\n\n- Ibovespa: -1,8%, 177.098 pontos (volume R$ 66,39 bi)\n- Dólar: R$ 5,0086 (+2,31%)\n- DI jan/27: 14,21%; jan/29: 14,05%; jan/31: 14,11%\n- Dow -0,14% (49.693), S&P +0,58% (7.444 - record!), Nasdaq +1,2% (26.402)\n- Treasury 10Y ~4,48%\n- Brent ~$107, WTI ~$102\n- Minério ~$111/t\n- PPI EUA +1,4% (vs 0,5% esperado), núcleo +1%\n- Selic atual 14,5% (cortada em 29/abr)\n- Foco: IPCA 4,91%\n- Quinta: PNAD Brasil, vendas no varejo EUA, seguro-desemprego, Trump-Xi (14-15/maio)\n- Áudio Flávio-Vorcaro; Pesquisa Quaest; Polymarket Flávio cai 13pp; MP taxa blusinhas; subvenção combustíveis\n\nNota: há uma aparente inconsistência entre a fonte CNN Brasil (12/mai, dólar R$4,89) e a fonte ND Mais (13/mai, dólar R$5,0086 +2,31%). Dado que o briefing é a noite de 13/05, uso os dados do dia 13/05.\n\n## Top 3 do Dia\n\n- Bolsa caiu para 177.093 pontos (-1,8%) e dólar superou R$ 5 após reportagem sobre Flávio Bolsonaro e Daniel Vorcaro; Polymarket precificou queda de 13 pontos nas chances de Flávio (43% para 30%) — risco político-eleitoral entra de volta no preço dos ativos.\n- PPI dos EUA saltou 1,4% em abril (maior alta mensal desde março/2022) e atacado subiu 6% em base anual, acima do consenso de 4,9% — pressão renovada na ponta longa da curva americana.\n- Curva DI abriu prêmio relevante com isenção da \"taxa das blusinhas\" e medidas de subvenção a combustíveis sinalizando viés eleitoral fiscal; cenário rebatiza tema fiscal como driver dominante de curto prazo.\n\n## Brasil\n\n**Renda Variável** — Ibovespa fechou em 177.098,29 pontos (-1,8%), com máxima de 180.513 e mínima de 176.787; volume de R$ 66,39 bilhões. No mês, índice acumula -5,46%; no ano, +9,91%. Destaques positivos: Braskem (BRKM5) subiu 8,85%, a R$ 12,92, após Braskem disparar mais de 20% na véspera com upgrade do JP Morgan; Hapvida (HAPV3) saltou 10,08%, a R$ 13,76, após retomada pós-leilão; Dasa (DASA3) subiu 8,92%, a R$ 3,42, após reverter prejuízo no 1T26. Lado negativo concentrado em varejistas pressionadas pelo fim da taxação sobre importados (varejistas recuam em bloco com ganho de espaço de Shein, Shopee, Temu e AliExpress no Brasil).\n\n**Renda Fixa** — Curva DI abriu em todos os vértices. DI jan/27 subiu de 14,108% para 14,21%; DI jan/29 saltou de 13,764% para 14,05%; DI jan/31 foi de 13,816% para 14,11%. Focus mantém Selic terminal em 13% ao ano em 2026; projeção para 2027 e 2028 em 11,25% e 10%, respectivamente. NTN-Bs 2035/2045: dado pontual de fechamento não disponível em fontes verificadas para hoje.\n\n**Câmbio** — Dólar à vista fechou a R$ 5,0086, alta de 2,31%, no maior fechamento desde 10 de abril. Drivers: aumento da percepção de risco político na corrida 2026; mercado aproveitou para forte realização de lucros; stop de posições compradas em real. Operadores destacam que o real vinha acumulando forte valorização ao longo do ano.\n\n**Macro & Política** — Senador Flávio Bolsonaro (PL-RJ) foi gravado negociando repasse de R$ 134 milhões com Daniel Vorcaro, do Banco Master, para financiar o filme \"Dark Horse\"; documentos mostram pelo menos US$ 10,6 milhões (R$ 61 milhões) pagos em seis transferências entre fevereiro e maio de 2025. Quaest mostrou Lula e Flávio tecnicamente empatados em eventual segundo turno e aprovação do governo subiu três pontos para 46%. No fiscal: MP que zera \"taxa das blusinhas\" foi publicada na noite de 12/mai e entra em vigor em 13/mai, permitindo zerar o imposto de importação em compras de até US$ 50; Receita arrecadou R$ 1,78 bilhão com o tributo entre janeiro e abril de 2026 (+25% vs 2025); abrir mão do tributo dificulta meta fiscal de 2026, que exige superávit de R$ 34,3 bilhões (0,25% do PIB). Petrobras sinalizou via Magda Chambriard que preço da gasolina nas refinarias vai aumentar; valor nos postos brasileiros já subiu mais de 20% desde o início da guerra no Oriente Médio. PMC mostrou varejo restrito +0,5% em março ante fevereiro (acima do +0,1% esperado); varejo ampliado +0,3%.\n\n## Global\n\n**EUA** — S&P 500 ganhou 0,58%, a 7.444,25 (recorde de fechamento); Nasdaq subiu 1,2%, a 26.402,34 (recorde); Dow Jones perdeu 67,36 pontos (-0,14%), a 49.693,20. PPI saltou 1,4% em abril, maior alta mensal desde março de 2022; atacado avançou 6% em base anual, maior alta desde dezembro de 2022 e acima do consenso de 4,9%. Treasury 10Y negociado a 4,48% após o PPI, máxima do ano, reforçando probabilidade de política monetária mais apertada. Dados de CPI da véspera elevaram chances de alta de juros e zeraram a maior parte das probabilidades de corte em 2026, segundo precificação de futuros. DXY: dado não disponível em fonte verificada para o fechamento de hoje.\n\n**Europa & Ásia** — FTSE 100 fechou em 10.341,31 (+0,74%); DAX em 24.099,81 (+0,60%). Hang Seng, Nikkei, CSI 300: Alibaba reportou queda na lucratividade do trimestre de março em meio a investimentos pesados em tecnologia e e-commerce; demais fechamentos asiáticos sem dado verificado.\n\n**Commodities** — Brent caiu 0,67% a US$ 107,05/barril; futuros permaneceram em torno de US$ 107 após três sessões consecutivas de alta, com o prolongamento do conflito no Oriente Médio e o quase-fechamento do Estreito de Ormuz tensionando a oferta global. WTI recuou abaixo de US$ 102/barril, interrompendo rali de três dias. Ouro: US$ 4.713,40 (+0,57%). Minério de ferro: caiu a US$ 111,11/t em 12 de maio, queda de 0,28% ante o dia anterior; no mês, alta de 3,79%. Soja: dado pontual não disponível.\n\n## Agenda do Dia\n\n- **Brasil — IBGE (09h):** PNAD Contínua referente ao primeiro trimestre, com resultados do mercado de trabalho como destaque.\n- **EUA — 09h30 (Brasília):** vendas no varejo de abril, preços de importação e exportação, pedidos contínuos de seguro-desemprego.\n- **Fed — 18h30 e 18h45 (Brasília):** discursos de Michael Barr (18h30) e John Williams (18h45).\n- **Geopolítica:** encontro Trump–Xi Jinping em Pequim nos dias 14 e 15 de maio, primeira visita presidencial americana à China desde 2017.\n- **Política doméstica:** desdobramentos do áudio Flávio–Vorcaro e pressão por CPI do Banco Master no Plenário da Câmara.\n- **Corporativo:** Petrobras (PETR4), BTG Pactual (BPAC11) e Banco do Brasil (BBAS3) entre as 51+ empresas divulgando resultados na semana.\n\n## O Que Monitorar\n\n1. **Reprecificação fiscal-eleitoral combinada.** A trinca taxa-zero das blusinhas + subvenção combustíveis + áudio Flávio/Quaest empata recolocou o prêmio de risco doméstico como driver. Estrategistas apontam que o motor não é o impacto fiscal direto (\"é mais pelo risco de eleição do que pelo risco fiscal — o fiscal é pequeno\"), mas a sinalização sobre o uso de medidas populistas até outubro. Em book: vértices intermediários do DI (jan/29) seguem como termômetro mais sensível; NTN-Bs longas devem testar prêmios. Cautela em book de varejistas domésticas após sinalização anti-isonomia.\n\n2. **Pipeline inflacionário americano travando o Fed.** Sequência CPI quente (3,8% a/a, máxima desde maio/2023) + PPI 1,4% m/m + Treasury 10Y em 4,48% redefine o cenário base do Fed para \"higher for longer\" sem corte em 2026 precificado. Semicondutores (PHLX SOX +64% desde fim de março) descolaram dos yields — pareamento incomum que merece atenção em book global. Risco para EM: hawkish surprise em ata/discursos próximos pode reverter o forte fluxo para Brasil que ancorou o real até esta semana.\n\n3. **Petróleo e Estreito de Ormuz como tail risk dominante.** CEO da Saudi Aramco alertou que o mercado está perdendo cerca de 100 milhões de barris/semana de oferta, com normalização possivelmente empurrada para 2027 se as disrupções persistirem. Brent acima de US$ 100 mantém pressão inflacionária no IPCA pelos combustíveis e força o governo a ampliar subvenções — feedback loop fiscal-monetário negativo. Encontro Trump–Xi (14–15/mai) e qualquer sinal sobre escolta naval em Ormuz são eventos binários de curto prazo.",
   "citations": [
     {
-      "url": "https://www.seudinheiro.com/2026/bolsa-dolar/ibovespa-recua-aos-180-mil-pontos-com-ipca-e-queda-da-petrobras-petr4-dolar-fecha-a-r-489-lvgb/",
-      "title": "A combinação explosiva que fez o Ibovespa fechar em queda e manteve o dólar em R$ 4,89 - Seu Dinheiro",
-      "cited_text": "Segundo dados da ferramenta FedWatch, do CME Group, o mercado vê 97,6% de probabilidade de manutenção dos juros na faixa entre 3,50% e 3,75% ao ano na..."
+      "url": "https://ndmais.com.br/economia/dolar-dispara-bolsa-cai-flavio-bolsonaro-master/",
+      "title": "Dólar dispara e Bolsa despenca após áudios de Flávio Bolsonaro; moeda volta a passar de R$ 5",
+      "cited_text": "Já a Bolsa brasileira caiu para 177.093 pontos, renovando mínimas ao longo do pregão.Dólar voltou a superar R$ 5 e Ibovespa caiu 1,8% após reportagem ..."
+    },
+    {
+      "url": "https://oantagonista.com.br/brasil/flavio-cai-13-pontos-no-polymarket-apos-divulgacao-de-audio-enviado-a-vorcaro/",
+      "title": "Flávio cai 13 pontos no Polymarket após divulgação de áudio enviado a Vorcaro",
+      "cited_text": "O recuo ocorre minutos após o site The Intercept Brasil divulgar um áudio em que o pré-candidato à Presidência cobra o banqueiro Daniel Vorcaro, do Ba..."
     },
     {
       "url": "https://www.cnbc.com/2026/05/12/stock-market-today-live-updates.html",
       "title": "S&P 500 rises to another record on the back of tech even as majority of stocks close lower: Live updates",
-      "cited_text": "To be sure, the S&P 500, along with the Nasdaq, slipped from all-time highs on Tuesday following the release of hotter-than-expected U.S. consumer inf..."
+      "cited_text": "On Wednesday, the producer price index jumped 1.4% in April. "
     },
     {
-      "url": "https://www.seudinheiro.com/2026/empresas/lucro-do-banco-do-brasil-bbas3-cai-no-1t26-e-roe-rentabilidade-recua-balanco-miql/",
-      "title": "Lucro do Banco do Brasil (BBAS3) cai a R$ 3,4 bilhões no 1T26 e ROE recua a 7,3%; banco revisa guidance para 2026 - Seu Dinheiro",
-      "cited_text": "... O lucro líquido recorrente chegou a R$ 3,43 bilhões na largada do ano — um recuo de 53,5% em relação ao mesmo período de 2025 e de 40,2% frente ao..."
+      "url": "https://www.dgabc.com.br/Noticia/4319068/taxas-de-juros-disparam-em-reacao-a-quadro-eleitoral-dados-do-varejo-e-medidas-fiscais",
+      "title": "Taxas de juros disparam em reação a quadro eleitoral, dados do varejo e medidas fiscais - 13/05/2026 | Diário do Grande ABC",
+      "cited_text": "Em uma sessão já levemente negativa para os juros futuros, que abriam em alta de menos de 10 pontos-base com dados mais fortes de atividade e a isençã..."
     },
     {
-      "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-      "title": "Brent crude oil - Price - Chart - Historical Data - News",
-      "cited_text": "Brent crude futures held around $107 per barrel on Wednesday after rising for three straight sessions, as the prolonged conflict in the Middle East an..."
-    },
-    {
-      "url": "https://www.cnnbrasil.com.br/economia/mercado/mercado-financeiro-ibovespa-dolar-12-maio-2026/",
-      "title": "Ibovespa fecha em queda com IPCA e balanços no radar; dólar sobe a R$ 4,89 | CNN Brasil",
-      "cited_text": "O Ibovespa encerrou o dia com recuo de 0,86%, aos 180.342,33 pontos. Já o dólar à vista fechou com leve alta de 0,08%, cotado a R$ 4,8949. "
-    },
-    {
-      "url": "https://www.atualidadepolitica.com.br/2026/05/ibovespa-conclui-ultima-sessao-aos.html",
-      "title": "Ibovespa conclui última sessão aos 180.342 pontos | Atualidade Política",
-      "cited_text": "Confira as ações com melhor e pior desempenho no último fechamento: ... Braskem S.A. Pfd A (BRKM5) +29,02% ... O volume total negociado na B3 foi de R..."
+      "url": "https://www.dgabc.com.br/Noticia/4319069/fechamento-do-mercado-financeiro",
+      "title": "Fechamento do mercado financeiro - 13/05/2026 | Diário do Grande ABC",
+      "cited_text": "BOLSAS · Ibovespa: -1,8% Pontos: 177.098,29 · Máxima de +0,09% : 180.513 pontos · Mínima de -1,97% : 176.787 pontos · Volume: R$ 66,39 bilhões · Varia..."
     },
     {
       "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-13-04-2026-jals-lils-apsa-2/",
       "title": "Tempo Real: Ibovespa derrete quase 2% com áudio entre Flavio Bolsonaro e Vorcaro; dólar sobe a R$ 5 – Money Times",
-      "cited_text": "O movimento de valorização recente foi desencadeado com a melhora de perspectiva do JP Morgan para a companhia. Ontem, o banco elevou a recomendação d..."
+      "cited_text": "... Após disparar mais de 20% na véspera, as ações da Braskem (BRKM5) saltam mais de 8% nesta quarta-feira. Às 11h18, BRKM5 subia 8,85%, a R$ 12,92. "
     },
     {
-      "url": "https://www.bloomberglinea.com.br/mercados/ibov:ind/",
-      "title": "Cotacao Ibovespa hoje, indice Bovespa 12/05/2026 | Bloomberg Línea Brasil",
-      "cited_text": "em que investidores estrangeiros reduzem a exposição a ativos concentrados nos EUA e buscam diversificação em mercados emergentes, mas a bolsa brasile..."
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/mercado-eleva-previsao-da-inflacao-para-491-este-ano",
+      "title": "Mercado eleva previsão da inflação para 4,91% este ano | Agência Brasil",
+      "cited_text": "Nesta edição do Focus, a estimativa dos analistas de mercado para a taxa básica até o fim de 2026 permaneceu em 13% ao ano. Para 2027 e 2028, a previs..."
     },
     {
-      "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-macroeconomicas-04052026/",
-      "title": "Focus: inflação de 2026 sobe pela 8ª semana seguida e Selic vai a 10% em 2029",
-      "cited_text": "... A taxa Selic para 2026 foi mantida em 13,00% ao ano pela segunda semana consecutiva. Para 2027, a projeção seguiu em 11,00%, também estável há dua..."
+      "url": "https://www.cnnbrasil.com.br/politica/ouca-o-audio-de-flavio-bolsonaro-pedindo-dinheiro-a-vorcaro/",
+      "title": "Ouça o áudio de Flávio Bolsonaro pedindo dinheiro a Vorcaro | CNN Brasil",
+      "cited_text": "O senador Flávio Bolsonaro (PL-RJ) e o dono do Banco Master, Daniel Vorcaro • Agência Senado e Reprodução ... O senador e pré-candidato à Presidência ..."
     },
     {
-      "url": "https://www.poder360.com.br/poder-economia/banco-central-corta-selic-em-025-p-p-e-taxa-cai-para-1450/",
-      "title": "Banco Central corta Selic em 0,25 p.p. e taxa cai para 14, ...",
-      "cited_text": "O juro-base caiu de 14,75% para 14,50% ao ano. "
+      "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/05/presidente-lula-assina-mp-para-zerar-a-taxa-das-blusinhas",
+      "title": "Presidente Lula assina MP para zerar a taxa das blusinhas — Planalto",
+      "cited_text": "Medida foi possível devido ao sucesso do Governo do Brasil no combate ao contrabando e na regularização do setor · Compartilhe: Compartilhe por Facebo..."
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-04/copom-decide-selic-em-meio-guerra-e-inflacao-acelerando",
-      "title": "Copom decide Selic em meio a guerra e inflação acelerando | Agência Brasil",
-      "cited_text": "Na ata da reunião de março, o Copom deixou de indicar se continuará a cortar os juros. Com a Guerra no Oriente Médio, o BC afirmou que a magnitude e o..."
+      "url": "https://www.hardware.com.br/noticias/lula-zera-imposto-importacao-50-dolares-taxa-blusinhas/",
+      "title": "Fim da taxa das blusinhas: Governo encerra imposto de 20% em compras internacionais de até US$ 50 - Hardware.com.br",
+      "cited_text": "Entre janeiro e abril de 2026, a Receita Federal recolheu R$ 1,78 bilhão com esse tributo, um salto de 25% em relação aos R$ 1,43 bilhão registrados n..."
     },
     {
-      "url": "https://tradingeconomics.com/united-states/stock-market",
-      "title": "United States Stock Market Index - Quote - Chart - Historical Data - News | Trading Economics",
-      "cited_text": "During Tuesday’s regular session, the S&amp;P 500 and Nasdaq Composite declined 0.16% and 0.71%, respectively, while the Dow Jones added 0.11%. Sentim..."
+      "url": "https://www.otempo.com.br/politica/governo/2026/5/13/governo-lula-anuncia-subvencao-para-conter-aumento-no-preco-da-gasolina-e-do-diesel",
+      "title": "Governo Lula anuncia subvenção para conter aumento no preço da gasolina e do diesel",
+      "cited_text": "Na terça-feira (12/5), a presidente da Petrobras, Magda Chambriard, afirmou que o preço da gasolina em suas refinarias vai aumentar \"já, já\". "
     },
     {
-      "url": "https://www.thestreet.com/latest-news/stock-market-today-may-12-2026-updates",
-      "title": "Stock Market Today (May 12, 2026): Nasdaq, Russell 2000 recover some losses after inflation, oil prices rise - TheStreet",
-      "cited_text": "The weakness in tech and discretionary stocks was largely to blame for its decline, with the index coming out to 26,088.20. "
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "title": "Stocks Mixed Early as PPI Soars, Nvidia Jumps",
+      "cited_text": "PPI deeper dive: The 10-year Treasury yield traded at 4.48% shortly after the PPI data, touching its highest levels of the year and reinforcing the li..."
     },
     {
-      "url": "https://sundayguardianlive.com/business/us-stock-market-today-12-may-2026-dow-dips-nasdaq-sp-500-edge-higher-as-tech-rally-oil-surges-103-on-us-iran-deal-gold-silver-hit-bitcoin-retreats-81k-what-investors-should-watch-191547/",
-      "title": "US Stock Market Today [12 May, 2026]: Dow Dips, Nasdaq & S&P 500 Edge Higher as Tech Rally, Oil Surges $103 on US-Iran Deal; Gold & Silver Hit, Bitcoin Retreats $81k | What Investors Should Watch",
-      "cited_text": "Markets turned defensive after annual US inflation climbed to 3.8% in April, exceeding economist expectations of 3.7%. "
+      "url": "https://finance.yahoo.com/quote/%5EDJI/history/",
+      "title": "Dow Jones Industrial Average (^DJI) Historical Data - Yahoo Finance",
+      "cited_text": "Nasdaq Futures · 29,320.50 · +150.50 · +0.52% Russell 2000 Futures · 2,855.40 · +5.00 · +0.18% VIX · 17.98 · -0.01 · -0.06% Gold · 4,713.40 · +26.70 ·..."
     },
     {
-      "url": "https://br.advfn.com/jornal/2026/05/precos-do-petroleo-hoje-terca-feira-12-de-maio",
-      "title": "Petróleo sobe hoje (12/05): Brent atinge US$ 107 com incertezas entre EUA e Irã | ADVFN News",
-      "cited_text": "Os contratos futuros do petróleo Brent subiram US$ 3,10, ou 2,97%, para US$ 107,31 por barril, enquanto o petróleo bruto West Texas Intermediate (WTI)..."
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "title": "Brent crude oil - Price - Chart - Historical Data - News",
+      "cited_text": "Brent fell to 107.05 USD/Bbl on May 13, 2026, down 0.67% from the previous day. "
     },
     {
       "url": "https://pt.tradingeconomics.com/commodity/crude-oil",
       "title": "Petróleo Bruto - Preço - Gráfico - Série Histórica - Notícias",
-      "cited_text": "A AIE afirmou em seu Relatório do Mercado de Petróleo que, com os estoques já diminuindo acentuadamente, uma maior volatilidade é provável antes da te..."
+      "cited_text": "2026-05-13 · O petróleo recua à medida que a guerra no Irã se arrasta · Os futuros do petróleo bruto WTI caíram abaixo de $102 por barril na quarta-fe..."
     },
     {
-      "url": "https://www.cnbc.com/2026/05/10/stock-market-today-live-updates.html",
-      "title": "S&P 500 ekes out a gain for first close above 7,400 despite another Iran setback: Live updates",
-      "cited_text": "... Copper climbed more than 2% on Monday to a record close of $6.4605. The metal rose as high as $6.509 in the session, marking its highest intraday ..."
+      "url": "https://pt.tradingeconomics.com/commodity/iron-ore",
+      "title": "Minério de Ferro - Preço - Gráfico - Série Histórica - Notícias",
+      "cited_text": "O minério de ferro caiu para 111,11 USD/T em 12 de maio de 2026, uma queda de 0,28% em relação ao dia anterior. "
     },
     {
-      "url": "https://investidor10.com.br/noticias/banco-do-brasil-bbas3-e-mais-100-empresas-divulgam-resultados-do-1t26-na-semana-veja-120298/",
-      "title": "Banco do Brasil (BBAS3) e mais 100 empresas divulgam resultados do 1T26 na semana; veja - Investidor10",
-      "cited_text": "13/05/2026: Multilaser (MLAS3); Time For Fun (SHOW3); CVC (CVCB3); São Carlos (SCAR3); Qualicorp (QUAL3); Bioma (BIOM3); Cedro Têxtil (CEDO4); Melnick..."
+      "url": "https://exame.com/invest/mercados/inflacao-no-brasil-e-eua-balancos-e-trump-e-xi-jinping-o-que-move-os-mercados/",
+      "title": "Inflação no Brasil e EUA, balanços e Trump e Xi Jinping: o que move os mercados nesta semana | Exame",
+      "cited_text": "Na quinta-feira, 14, os destaques ficam por conta dos números do mercado de trabalho. O Instituto Brasileiro de Geografia e Estatística (IBGE) apresen..."
     },
     {
-      "url": "https://bmcnews.com.br/investimentos-e-financas/inflacao-no-brasil-cpi-dos-eua-e-balanco-da-petrobras-marcam-a-semana/",
-      "title": "Inflação no Brasil, CPI dos EUA e balanço da Petrobras marcam a semana - BM&C NEWS",
-      "cited_text": "A agenda ganha peso adicional com a visita do presidente dos Estados Unidos, Donald Trump, à China para reunião com Xi Jinping nos dias 14 e 15 de mai..."
+      "url": "https://www.moneytimes.com.br/agenda-ipca-nucleo-da-inflacao-americana-e-pib-europeu-confira-os-indicadores-desta-semana-jcav/",
+      "title": "Agenda: IPCA, inflação americana e PIB europeu; confira os indicadores desta semana – Money Times",
+      "cited_text": "Já na quinta-feira (14), o mercado enfrenta uma das sessões mais carregadas da semana, com vendas no varejo, preços de importação e exportação e pedid..."
     },
     {
-      "url": "https://www.moneytimes.com.br/banco-do-brasil-bbas3-lucro-despenca-53-no-trimestre-e-vai-r-34-bilhoes-no-1t26-mas-fica-dentro-das-expectativas/",
-      "title": "Banco do Brasil (BBAS3): Lucro despenca 53% e vai R$ 3,4 bilhões no 1T26, mas fica dentro das expectativas – Money Times",
-      "cited_text": "Também encerrou abaixo do Itaú (ITUB4), que terminou com ROE de 24%, Santander (SANB11), a 16%, e Bradesco (BBDC4), que terminou o período a 15,8%. "
+      "url": "https://www.camara.leg.br/noticias/1272121-repasse-de-recursos-de-vorcaro-a-flavio-bolsonaro-reforca-pressao-por-cpi-do-banco-master",
+      "title": "Repasse de recursos de Vorcaro a Flávio Bolsonaro reforça pressão por CPI do Banco Master - Notícias - Portal da Câmara dos Deputados",
+      "cited_text": "Assunto foi discutido na sessão do Plenário da Câmara nesta quarta-feira"
     }
   ],
   "usage": {
-    "input_tokens": 208737,
-    "output_tokens": 4999
+    "input_tokens": 227854,
+    "output_tokens": 5535
   }
 }
